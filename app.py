@@ -12,9 +12,11 @@ def load_data(path):
     return preprocess(df)
 
 def preprocess(df):
-    # Convert to datetime
-    df['Order Date'] = pd.to_datetime(df['Order Date'])
-    df['Ship Date'] = pd.to_datetime(df['Ship Date'])
+
+    # Convert to datetime (auto-detect format or assume day first)
+    df['Order Date'] = pd.to_datetime(df['Order Date'], dayfirst=True, errors='coerce')
+    df['Ship Date'] = pd.to_datetime(df['Ship Date'], dayfirst=True, errors='coerce')
+
     
     # Calculate Order Processing Time (Lead Time)
     df['Order Processing Time'] = (df['Ship Date'] - df['Order Date']).dt.days
