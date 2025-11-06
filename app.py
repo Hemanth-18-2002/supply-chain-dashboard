@@ -46,7 +46,7 @@ st.title("📦 Supply Chain & Business Performance Dashboard")
 
 # Sidebar - Filters
 st.sidebar.header("Filters")
-data_path = st.sidebar.text_input("CSV File Path","D:\E\Supply Chain Data Integration System\Supply_Chain_Dashboard\Refined and Cleansed_Supply_Chain_Data.csv")
+data_path = st.sidebar.text_input("CSV File Path","Refined and Cleansed_Supply_Chain_Data.csv")
 
 # Load data
 try:
