@@ -102,14 +102,14 @@ erDiagram
         string month_name
     }
 📁 Project Structure
-.
-├── sql/
-│   ├── 1_create_dim_product.sql
-│   ├── 2_insert_dim_product.sql
-│   ├── 3_create_dim_customer.sql
-│   ├── 4_insert_dim_customer.sql
-│   ├── ... (all other create/insert scripts) ...
-│   └── 12_insert_fact_sales.sql
+├── Project
+│   ├── 1_Bronze_layer
+│   ├── 2_Silver_layer
+│   ├── 3_Gold_layer
+├── Datasets
+|   ├── Global_Superstore.csv
+|   ├── Refined_and_Cleaned_Dataset.csv
+├── Presentation.pptx
 ├── app.py                  # Main Streamlit dashboard file
 ├── requirements.txt        # Python dependencies
 └── README.md               # You are here
@@ -123,7 +123,7 @@ A BigQuery dataset (e.g., Dimension_Tables).
 
 Source Data:
 
-The source Cleansed_Supply_Chain_Data table must be present in your BigQuery dataset.
+The source Supply_Chain_Data table must be present in your BigQuery dataset.
 
 Python Environment:
 
