@@ -197,4 +197,14 @@ Profit & Sales Analysis: Drill-down bar charts to analyze performance by Categor
 Interactive Filtering: Filter the entire dashboard by Region, State, Ship Mode, and more.
 
 <img width="1448" height="498" alt="image" src="https://github.com/user-attachments/assets/4d19d0b6-390a-4a5f-a1cb-ee60976ac17d" />
+<img width="1427" height="558" alt="image" src="https://github.com/user-attachments/assets/c990f73c-f5ac-4a3a-af5f-3caa7410e7ba" />
+<img width="1434" height="561" alt="image" src="https://github.com/user-attachments/assets/975adc0c-2b4f-46f4-8e49-7a216116f077" />
+<img width="1476" height="568" alt="image" src="https://github.com/user-attachments/assets/f71fceb1-3aca-47f1-8e5e-c72916587c54" />
+<img width="1404" height="584" alt="image" src="https://github.com/user-attachments/assets/5c7d3463-3ccd-49a9-aabd-108988a6c3a5" />
+<img width="1452" height="731" alt="image" src="https://github.com/user-attachments/assets/ddb5d978-0dda-4250-8755-a6b473200ad3" />
+<img width="1441" height="479" alt="image" src="https://github.com/user-attachments/assets/cdf372f3-774d-4c93-ab8f-aef0f82e70ab" />
+<img width="1439" height="758" alt="image" src="https://github.com/user-attachments/assets/0a3f7be0-f4ab-4680-814d-fe8da1b2fab4" />
+<img width="1446" height="620" alt="image" src="https://github.com/user-attachments/assets/d830e016-b1de-42cf-8dae-0e34c0800540" />
+<img width="1448" height="594" alt="image" src="https://github.com/user-attachments/assets/3cf320b8-c295-4621-bc6a-8ff648d959bf" />
+
 
