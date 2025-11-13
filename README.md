@@ -114,7 +114,7 @@ ER-Diagram
 ├── requirements.txt        # Python dependencies
 └── README.md               # You are here
 
-**## ⚙️ Setup & Installation**
+## ⚙️ Setup & Installation
 Prerequisites
 Google Cloud Project:
 
@@ -145,7 +145,7 @@ google-cloud-bigquery
 pandas
 plotly
 
-**## 🚀 How to Run**
+## 🚀 How to Run
 1. Build the Data Warehouse (ELT Pipeline)
 The SQL scripts in the /sql directory are designed to be run in a specific order to build the data warehouse.
 
