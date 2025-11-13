@@ -195,3 +195,6 @@ Geospatial Analysis: An interactive choropleth map shows Sales & Profit by State
 Profit & Sales Analysis: Drill-down bar charts to analyze performance by Category, Sub-Category, and Customer Segment.
 
 Interactive Filtering: Filter the entire dashboard by Region, State, Ship Mode, and more.
+
+<img width="1448" height="498" alt="image" src="https://github.com/user-attachments/assets/4d19d0b6-390a-4a5f-a1cb-ee60976ac17d" />
+
