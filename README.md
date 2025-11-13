@@ -33,7 +33,7 @@ The core of this project is the star schema, which separates descriptive attribu
 
 **SCD Type 2** is implemented on the core business dimensions to ensure that changes over time (e.g., a customer's `Segment` changes, a product's `Category` is redefined) are captured. This is achieved by adding `start_date`, `end_date`, and `is_current` columns to the dimension tables.
 
-
+```
 ER-Diagram
     Dim_Product ||--o{ Fact_Sales : "has"
     Dim_Customer ||--o{ Fact_Sales : "buys"
@@ -41,6 +41,7 @@ ER-Diagram
     Dim_Shipping ||--o{ Fact_Sales : "via"
     Dim_Date ||--o{ Fact_Sales : "on_order_date"
     Dim_Date ||--o{ Fact_Sales : "on_ship_date"
+```
 
     Fact_Sales {
         string order_id
