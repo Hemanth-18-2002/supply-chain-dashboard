@@ -113,7 +113,7 @@ erDiagram
 ├── app.py                  # Main Streamlit dashboard file
 ├── requirements.txt        # Python dependencies
 └── README.md               # You are here
-⚙️ Setup & Installation
+**## ⚙️ Setup & Installation**
 Prerequisites
 Google Cloud Project:
 
@@ -143,7 +143,7 @@ streamlit
 google-cloud-bigquery
 pandas
 plotly
-🚀 How to Run
+**## 🚀 How to Run**
 1. Build the Data Warehouse (ELT Pipeline)
 The SQL scripts in the /sql directory are designed to be run in a specific order to build the data warehouse.
 
@@ -181,7 +181,7 @@ Bash
 streamlit run app.py
 The application will open in your default web browser.
 
-📊 Dashboard Preview
+**## 📊 Dashboard Preview**
 The dashboard provides a high-level overview and deep-dive capabilities.
 
 KPI Cards: At-a-glance metrics for Total Sales, Profit, Quantity, and Average Shipping Days.
