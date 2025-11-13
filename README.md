@@ -101,6 +101,7 @@ ER-Diagram
         int year
         string month_name
     }
+```
 📁 Project Structure
 ├── Project
 │   ├── 1_Bronze_layer
@@ -113,7 +114,7 @@ ER-Diagram
 ├── app.py                  # Main Streamlit dashboard file
 ├── requirements.txt        # Python dependencies
 └── README.md               # You are here
-
+```
 ## ⚙️ Setup & Installation
 Prerequisites
 Google Cloud Project:
