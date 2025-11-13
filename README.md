@@ -33,8 +33,8 @@ The core of this project is the star schema, which separates descriptive attribu
 
 **SCD Type 2** is implemented on the core business dimensions to ensure that changes over time (e.g., a customer's `Segment` changes, a product's `Category` is redefined) are captured. This is achieved by adding `start_date`, `end_date`, and `is_current` columns to the dimension tables.
 
-```mermaid
-erDiagram
+
+ER-Diagram
     Dim_Product ||--o{ Fact_Sales : "has"
     Dim_Customer ||--o{ Fact_Sales : "buys"
     Dim_Location ||--o{ Fact_Sales : "at"
@@ -113,6 +113,7 @@ erDiagram
 ├── app.py                  # Main Streamlit dashboard file
 ├── requirements.txt        # Python dependencies
 └── README.md               # You are here
+
 **## ⚙️ Setup & Installation**
 Prerequisites
 Google Cloud Project:
@@ -143,6 +144,7 @@ streamlit
 google-cloud-bigquery
 pandas
 plotly
+
 **## 🚀 How to Run**
 1. Build the Data Warehouse (ELT Pipeline)
 The SQL scripts in the /sql directory are designed to be run in a specific order to build the data warehouse.
@@ -181,7 +183,7 @@ Bash
 streamlit run app.py
 The application will open in your default web browser.
 
-**## 📊 Dashboard Preview**
+## 📊 Dashboard Preview
 The dashboard provides a high-level overview and deep-dive capabilities.
 
 KPI Cards: At-a-glance metrics for Total Sales, Profit, Quantity, and Average Shipping Days.
