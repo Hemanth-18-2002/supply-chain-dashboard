@@ -10,7 +10,7 @@ The data model features **Slowly Changing Dimensions (SCD) Type 2** to accuratel
 
 ## 🚀 Key Features
 
-* **Star Schema Data Model:** Transformed a single flat table (`Cleansed_Supply_Chain_Data`) into a clean star schema with one fact table and five dimension tables.
+* **Star Schema Data Model:** Transformed a single flat table (`Supply_Chain_Data`) into a clean star schema with one fact table and five dimension tables.
 * **Historical Data Tracking:** Implemented **Slowly Changing Dimensions (SCD) Type 2** on `Dim_Product`, `Dim_Customer`, and `Dim_Location` to preserve historical attribute changes.
 * **Efficient ELT Pipeline:** All data transformations are handled natively within Google BigQuery using SQL for maximum efficiency and scalability.
 * **Interactive Dashboard:** A live Streamlit application provides a user-friendly interface for non-technical users to explore KPIs, analyze trends, and drill down into the data.
